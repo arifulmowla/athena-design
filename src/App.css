@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+.button-style{
+  background: linear-gradient(45deg, rgba(14,187,221,1) 0%, rgba(29,218,183,1) 100%);
+ border-radius: 25px 2px;
+ color: #fff;
+ padding: 10px 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn-started{
+  background: linear-gradient(45deg, rgba(14,187,221,1) 0%, rgba(29,218,183,1) 100%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading-font{
+  font-size:70px;
+   font-family: Playfair Display; 
+   font-weight:bold; 
+   color:black;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.we-do{
+  font-family: Playfair Display; 
+  font-weight:bold;
+  color:black;
+}
+.service{
+  padding: 40px 5px;
+}
+.service:hover{
+  border-radius: 110px 2px;
+  background-color: white;
+  box-shadow: 1px 1px 16px -3px rgba(0,0,0,0.27)
+}
+.minds, .complete{
+    border-radius: 65px 2px;
+    background-color: white;
+    padding: 8px 0px;
+    box-shadow: 1px 1px 16px -3px rgba(0,0,0,0.27);
+    margin: 10px;
+}
+.happy, .project{
+  border-radius: 2px 65px;
+    background-color: white;
+    padding: 8px 0px;
+    box-shadow: 1px 1px 16px -3px rgba(0,0,0,0.27);
+    margin: 10px;
+}
+.achievement h4,p{
+  color: rgb(95, 93, 93);
+}
+.achievement:hover{
+  background: linear-gradient(45deg, rgba(14,187,221,1) 0%, rgba(29,218,183,1) 100%);
+}
+.achievement:hover p,.achievement:hover h4{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.bottom-border{
+ border-bottom:2px solid rgba(30,219,183,1) ;
+ width: 150px;
+ margin: 10px auto;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.order-btn{
+  display:none;
+}
+.team:hover{
+border: 2px solid rgba(30,219,183,1);
+}
+.team:hover .order-btn{
+  display: block;
+  border: none;
+  margin: 0px auto;
 }
