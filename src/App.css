@@ -1,66 +1,86 @@
-.button-style{
-  background: linear-gradient(45deg, rgba(14,187,221,1) 0%, rgba(29,218,183,1) 100%);
- border-radius: 25px 2px;
- color: #fff;
- padding: 10px 20px;
+.button-style {
+  background: linear-gradient(
+    45deg,
+    rgba(14, 187, 221, 1) 0%,
+    rgba(29, 218, 183, 1) 100%
+  );
+  border-radius: 25px 2px;
+  color: #fff;
+  padding: 10px 20px;
 }
-.btn-started{
-  background: linear-gradient(45deg, rgba(14,187,221,1) 0%, rgba(29,218,183,1) 100%);
+.btn-started {
+  background: linear-gradient(
+    45deg,
+    rgba(14, 187, 221, 1) 0%,
+    rgba(29, 218, 183, 1) 100%
+  );
 }
-.heading-font{
-  font-size:70px;
-   font-family: Playfair Display; 
-   font-weight:bold; 
-   color:black;
+.heading-font {
+  font-size: 70px;
+  font-family: Playfair Display;
+  font-weight: bold;
+  color: black;
 }
-.we-do{
-  font-family: Playfair Display; 
-  font-weight:bold;
-  color:black;
+.we-do {
+  font-family: Playfair Display;
+  font-weight: bold;
+  color: black;
 }
-.service{
+.service {
   padding: 40px 5px;
 }
-.service:hover{
+.service:hover {
   border-radius: 110px 2px;
   background-color: white;
-  box-shadow: 1px 1px 16px -3px rgba(0,0,0,0.27)
+  box-shadow: 1px 1px 16px -3px rgba(0, 0, 0, 0.27);
 }
-.minds, .complete{
-    border-radius: 65px 2px;
-    background-color: white;
-    padding: 8px 0px;
-    box-shadow: 1px 1px 16px -3px rgba(0,0,0,0.27);
-    margin: 10px;
+.minds,
+.complete {
+  border-radius: 65px 2px;
+  background-color: white;
+  padding: 8px 0px;
+  box-shadow: 1px 1px 16px -3px rgba(0, 0, 0, 0.27);
+  margin: 10px;
 }
-.happy, .project{
+.happy,
+.project {
   border-radius: 2px 65px;
-    background-color: white;
-    padding: 8px 0px;
-    box-shadow: 1px 1px 16px -3px rgba(0,0,0,0.27);
-    margin: 10px;
+  background-color: white;
+  padding: 8px 0px;
+  box-shadow: 1px 1px 16px -3px rgba(0, 0, 0, 0.27);
+  margin: 10px;
 }
-.achievement h4,p{
+.achievement h4,
+p {
   color: rgb(95, 93, 93);
 }
-.achievement:hover{
-  background: linear-gradient(45deg, rgba(14,187,221,1) 0%, rgba(29,218,183,1) 100%);
+.achievement:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(14, 187, 221, 1) 0%,
+    rgba(29, 218, 183, 1) 100%
+  );
 }
-.achievement:hover p,.achievement:hover h4{
+.achievement:hover p,
+.achievement:hover h4 {
   color: white;
 }
-.bottom-border{
- border-bottom:2px solid rgba(30,219,183,1) ;
- margin: 10px auto;
+.bottom-border {
+  border-bottom: 2px solid rgba(30, 219, 183, 1);
+  margin: 10px auto;
 }
-.order-btn{
-  display:none;
+.order-btn {
+  display: none;
 }
-.team:hover{
-border: 2px solid rgba(30,219,183,1);
+.team:hover {
+  border: 2px solid rgba(30, 219, 183, 1);
 }
-.team:hover .order-btn{
+.team:hover .order-btn {
   display: block;
   border: none;
   margin: 0px auto;
+}
+
+.pricing-card {
+  min-height: 525px;
 }

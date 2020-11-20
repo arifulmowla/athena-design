@@ -8,7 +8,7 @@ const GetStarted = () => {
             <p className="mb-5">Be the first know our latest offers and updates</p>
             <div className='d-flex'>
                 <div className='col-md-6 col-lg-4 col-10 shadow m-auto py-2'>
-                    <div className='d-flex justify-content-around'>
+                    <div className='d-flex justify-content-between'>
                         <div className=''>
                             <Form.Control className="m-auto" type="email" placeholder="Enter your email address" style={{ border: 'none' }} />
                         </div>
