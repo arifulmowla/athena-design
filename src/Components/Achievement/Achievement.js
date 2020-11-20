@@ -12,7 +12,7 @@ const Achievement = () => {
                 <p className='text-center text-lg-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam recusandae ducimus laborum voluptates nesciunt quae excepturi eveniet hic quibusdam ab.</p>
             </div>
             <div className="col-lg-6 col-md-12">
-                <div className="d-flex flex-wrap justify-content-center">
+                <div className="d-flex flex-wrap justify-content-center pricing-card">
                     <div className="col-lg-4 col-md-5 p-3 d-flex achievement mx-3 justify-content-center align-items-center happy">
                         <div className='mr-3'>
                             <img src={happy} style={{ width: '35px' }} alt="" />
