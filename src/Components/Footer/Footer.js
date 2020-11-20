@@ -8,11 +8,11 @@ import dribble from '../../images/dribbble.png';
 const Footer = () => {
     return (
         <div className='d-flex flex-wrap justify-content-center mb-4'>
-            <div className='col-md-3 col-12'>
+            <div className='col-md-3 col-12 text-center'>
                 <div className='ml-3'>
                     <img style={{ width: '100px' }} src={logo} alt="" />
                 </div>
-                <div className='d-flex'>
+                <div className='d-flex justify-content-center'>
                     <div className='m-3'>
                         <img src={facebook} alt="" />
                     </div>
@@ -27,18 +27,18 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='col-md-2 col-4'>
+            <div className='col-md-2 col-12 text-center'>
                 <p>Feature</p>
                 <p>Enterprise</p>
                 <p>Pricing</p>
             </div>
-            <div className='col-md-2 col-4'>
+            <div className='col-md-2 col-12 text-center'>
                 <p>Blog</p>
                 <p>Help Center</p>
                 <p>Contact Us</p>
                 <p>Status</p>
             </div>
-            <div className='col-md-2 col-4'>
+            <div className='col-md-2 col-12 text-center'>
                 <p>About Us</p>
                 <p>Terms of Service</p>
                 <p>Security</p>

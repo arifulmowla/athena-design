@@ -42,7 +42,7 @@ const WhatWeDo = () => {
             <div className="d-flex flex-wrap justify-content-center mb-5">
                 {
                     whatWeDo.map(x =>
-                        <div className="col-md-4 col-lg-3 service">
+                        <div className="col-md-6 col-lg-3 service">
                             <div className='text-center mb-2'>
                                 <img src={x.image} style={{ width: '60px' }} alt="" />
                             </div>

@@ -7,9 +7,9 @@ import happy from '../../images/happy.png'
 const Achievement = () => {
     return (
         <div className='px-5 d-flex flex-wrap justify-content-center' style={{marginTop:'100px'}}>
-            <div className="col-lg-4 col-md-8 text-center text-md-left col-12">
-                <h2 className='we-do'>Our Achievements</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam recusandae ducimus laborum voluptates nesciunt quae excepturi eveniet hic quibusdam ab.</p>
+            <div className="col-lg-4 col-md-8 text-md-left col-12">
+                <h2 className='we-do text-center text-lg-left'>Our Achievements</h2>
+                <p className='text-center text-lg-left'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam recusandae ducimus laborum voluptates nesciunt quae excepturi eveniet hic quibusdam ab.</p>
             </div>
             <div className="col-lg-6 col-md-12">
                 <div className="d-flex flex-wrap justify-content-center">
